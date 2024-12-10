@@ -1,0 +1,71 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 1rem 0;
+    text-align: center;
+}
+nav {
+    display: flex;
+    justify-content: center;
+    background-color: #333;
+}
+nav a {
+    color: white;
+    padding: 1rem;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+nav a:hover {
+    background-color: #575757;
+}
+.hero {
+    background: url('https://placehold.co/1200x400') no-repeat center center/cover;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+}
+.hero h1 {
+    font-size: 3rem;
+}
+.container {
+    padding: 2rem;
+}
+.section-title {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+.courses, .news {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.course, .news-item {
+    background-color: #f4f4f4;
+    margin: 1rem;
+    padding: 1rem;
+    border-radius: 8px;
+    width: 30%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.course img, .news-item img {
+    width: 100%;
+    border-radius: 8px;
+}
+.course h3, .news-item h3 {
+    margin-top: 1rem;
+}
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+}
